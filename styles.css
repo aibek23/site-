@@ -1,0 +1,1046 @@
+body {
+
+    font-family: 'PT Sans Caption', sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+a {
+    color: #8C8D90;
+}
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.j_text {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90000;
+}
+
+.header__inner img {
+    border-radius: 50%;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 0;
+
+}
+
+.header__logo {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.header.fixed {
+    position: fixed;
+
+}
+
+.header.fixed .header__logo {
+    opacity: 0;
+}
+
+/* Nav
+===================*/
+
+.nav {
+
+
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border: 2px solid #B7BCC2;
+
+    height: 20px;
+
+    border-radius: 20px;
+    background-color: #19395F;
+
+
+}
+
+.nav.show {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-left: auto;
+}
+
+.nav.show.nav__link {
+    position: absolute;
+    border: 2px solid #B7BCC2;
+
+    height: 20px;
+
+    border-radius: 20px;
+    background-color: #19395F;
+}
+
+.nav__l {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: aliceblue;
+
+    transition: opacity .1s linear;
+
+}
+
+.nav__link {
+    margin: 0 20px;
+
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.nav__link:first-child {
+    background-color: #19395F;
+}
+
+.nav__link:hover {
+    opacity: 1;
+
+
+}
+
+.nav__link:active {
+    background-color: #E84545;
+    border-radius: 20px;
+}
+
+
+
+/* Button
+===================*/
+
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #e84545;
+    margin-top: 6em;
+}
+
+.btn--long {
+    min-width: 280px;
+}
+
+.btn--red:hover {
+    background-color: #dd3434;
+}
+
+
+
+
+/* Intro
+===================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: center;
+    
+    height: 650px;
+    padding-top: 100px;
+
+    background-size: cover;
+    position: relative;
+
+    background-image: url(img/1575824244_RnwnIzX.gif);
+
+}
+
+
+
+.intro__inner {
+    width: 100%;
+    height: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+
+    text-align: center;
+}
+
+.intro__title {
+    margin: 0 0 30px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.intro__subtitle {  
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    margin: 50px;
+}
+
+.intro__subtitle .h1 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/* works
+===================*/
+
+
+#Services__works {
+    margin-top: 50px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.zags {
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.text {
+    font-size: 13px;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    grid-row-gap: 5em;
+    
+    margin: 0 20px;
+    margin: 40px 0;
+
+}
+
+.works__item img {
+    border-radius: 50%;
+    width: 114px;
+    height: 114px;
+}
+
+.works__item {
+    max-width: 310px;
+ 
+}
+
+
+
+/* portfolio
+===================*/
+
+.portfolio__a{
+    text-decoration: none;
+}
+
+#portfolioh3 {
+    margin-top: 50px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.portfolio {
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+
+}
+
+.portfolio__iner {
+
+    position: relative;
+    
+    width: 420px;
+    height: 270px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.portfolioh3{
+    position: absolute;
+    z-index: 0;
+    
+    font-size: 35px;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.portfolio_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(45deg,  #DD5145, #FFCD42 ,#159F5C);
+    
+    width: 420px;
+    height: 270px;
+
+    position: relative;
+       
+}
+
+
+
+
+
+.portfolio_photo img {  
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    display: block;
+
+    
+}
+.portfolio__iner .portfolio_photo:hover{
+    transform: translate3d(-10px, -10px, 0);
+    box-shadow: 6px 6px 15px 6px #000;
+   
+}
+.portfolio_photo img:hover{
+     opacity: .2;
+}
+
+.one{
+    display: grid;
+    justify-items: center;
+}
+
+
+.moga{
+    border-radius: 10px;
+    background: #E1E1E1;
+    margin: 5px;
+    width: 50%;
+}
+
+
+
+/* btn__nav
+===================*/
+.btn__nav {
+    display: none;
+    margin-right: 10px;
+    background-color: #2F3F56;
+    border: 2px solid #E1E1E1;
+    border-radius: 10px;
+}
+
+.dtn__nav__iner {
+    display: block;
+    background-color: #E1E1E1;
+    font-size: 0;
+    border-radius: 3px;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+
+}
+
+
+/* aboutMe
+===================*/
+.aboutMe {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.aboutMe__iner {
+    display: block;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: -1em;
+    justify-content: center;
+}
+
+
+.aboutMe__photo {
+    position: relative;
+}
+
+
+.aboutMe__photo img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+}
+
+.aboutMe__photo:before {
+    content: "";
+    display: block;
+    width: 413px;
+    height: 413px;
+    background-color: #efefef;
+    position: absolute;
+    right: 135px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.aboutMe__text {
+    margin-right: 20px;
+    text-align: start;
+}
+
+
+.aboutMeh3 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.aboutMeh2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: rgba(43, 42, 44, 0.15);
+}
+
+
+/* contact
+===================*/
+
+
+.contact__iner {
+    height: 210px;
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gmail {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail img {
+    height: 30px;
+}
+
+.qq {
+    display: flex;
+    align-content: center;
+}
+
+.gmail__adres {
+    margin-left: 1rem;
+}
+
+.ww {
+    display: flex;
+
+    align-items: center;
+}
+
+.contact__phone__logo img {
+    border-radius: 100%;
+}
+
+.contact__phone {
+    margin-left: 2rem;
+}
+
+.sots {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sots img {
+    height: 40px;
+
+}
+
+.facebook {
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-image: url(img3/_logo_facebook_1.png);
+    background-size: 100%;
+    background-position: center;
+
+    position: relative;
+}
+
+.facebook2 {
+    position: absolute;
+}
+
+.facebook2:hover {
+    opacity: .1;
+}
+
+
+.whatsapp {
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-image: url(img3/logo_whatsapp_1.png);
+    background-size: 100%;
+    background-position: center;
+
+    position: relative;
+}
+
+.whatsapp_1 {
+    position: absolute;
+}
+
+.instagram {
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+    background-image: url(img3/logo_instagram_1.png);
+    background-size: 100%;
+    background-position: center;
+
+    position: relative;
+}
+
+.whatsapp_1:hover {
+    opacity: .1;
+}
+
+.instagram_1 {
+    position: absolute;
+}
+
+.instagram_1:hover {
+    opacity: .1;
+}
+
+
+
+.contact__taitl {
+    height: 50px;
+    width: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input {
+    margin: 8px 0;
+    max-width: 337px;
+}
+
+#contact__taitl {
+    color: aliceblue;
+}
+
+.contact__inerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background: #19395F;
+
+}
+
+
+/*modal Button
+===================*/
+
+.modal {
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+
+    background: rgba(20, 49, 81, .8);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+
+
+}
+
+.modal.eee {
+    display: flex;
+
+}
+
+.modal__iner {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    box-shadow: 50px 30px 60px 20px #000;
+
+}
+
+.modal__contact {
+
+    background-image: url(img2/bg_contact.jpg);
+    margin: 0;
+    font-size: 13px;
+    padding-left: 15px;
+
+}
+
+.modal__contact__iner {
+    line-height: 1;
+}
+
+.modal__p {
+    line-height: 1.5;
+}
+
+#modal__gmail {
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+#modal__contact__phone {
+    margin-left: 1rem;
+}
+
+.modal__contact img {
+    height: 20px;
+    margin: 0;
+}
+
+#email {
+    max-width: 100%;
+    
+
+}
+
+#textarea {
+    max-width: 90%;
+}
+
+
+
+.x_iwebp {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.x_iwebp img {
+    border-radius: 100%;
+
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    height: 25px;
+    opacity: .8;
+    box-shadow: 4px 4px 6px 1px #000;
+}
+
+
+
+.modal__photo {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    width: 300px;
+    position: relative;
+
+
+}
+
+.modal__photo img {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+/* media
+===================*/
+
+
+@media (max-width:1360px) {
+    .works {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2.5em;
+        margin: 50px 10px;
+
+    }
+    
+    .portfolio{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+    .aboutMe__iner {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        font-size: 13px;
+    }
+
+    .aboutMe__photo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        z-index: 0;
+
+    }
+
+    .aboutMe__photo img {
+        width: 380px;
+        display: block;
+        position: relative;
+    }
+
+    .aboutMe__photo:before {
+        display: block;
+        width: 100%;
+        height: 190px;
+        right: 0;
+
+    }
+
+    .aboutMe__text {
+        text-align: start;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+}
+
+
+
+/*media
+         ===================*/
+
+
+@media (max-width:767px) {
+    img {
+
+        max-width: 100%;
+
+        max-height: 100%;
+
+        width: auto\9;
+        /* ie8 */
+
+    }
+    
+    .intro{
+        height: 800px;
+    }
+
+    .works {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+
+        margin: 40px 5px;
+
+    }
+    #Services__works{
+        font-size: 2rem;
+        text-align: center;
+      margin-left: auto;
+    }
+    
+    
+
+
+    .intro__title {
+        font-size: 35px;
+    }
+
+    .nav {
+
+        display: none;
+
+    }
+
+    .btn__nav {
+        display: block;
+    }
+
+    /* portfolio
+        ===================*/
+
+    .portfolio {
+       grid-template-columns: auto;
+    }
+    
+    #portfolioh3{
+         font-size: 2rem;
+        text-align: center;
+      margin-left: auto;
+    }
+    
+    
+    .portfolio__iner{
+    width: 320px;
+    height: 170px;
+    border-radius: 10px;   
+    }
+    
+    .portfolio_photo{
+    width: 320px;
+    height: 170px;
+    border-radius: 10px;
+        
+    }
+    
+    .portfolio_photo img{
+    width: 320px;
+    height: 170px;
+    border-radius: 10px;
+        
+    }
+    
+    
+    
+
+
+
+    .aboutMe__photo img {
+        width: 340px;
+        right: auto;
+    }
+
+    .aboutMe__photo:before {
+        width: 100%;
+        height: 170px;
+        right: 0;
+
+
+    }
+
+    .aboutMe__text {
+        margin: 0 5px;
+    }
+
+    .aboutMeh3 {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+
+    .aboutMeh2 {
+        font-size: 3rem;
+    }
+
+
+    /* contact
+        ===================*/
+    .contact {
+        font-size: 13px;
+    }
+
+    .contact__iner {
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+    }
+
+    .gmail__logo img {
+        height: 25px;
+    }
+
+    .ww img {
+        height: 25px;
+    }
+
+    .sots {
+        margin: 10px;
+    }
+
+
+
+    /* modal ocno bt
+        ===================*/
+
+
+    #modalPhoto {
+        margin-top: 30%;
+
+        width: 100%;
+
+    }
+
+
+
+    .modal__iner {
+        background: #fff;
+        height: auto;
+        max-height: 300px;
+        max-width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .modal__contact {
+        font-size: 9px;
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+
+    #aboutMeh {
+        font-size: 1.5rem;
+    }
+
+    .gmail__adres {
+        margin-left: 3px;
+    }
+
+    .modal__gmail {
+        width: 189px;
+    }
+
+    .gmail {
+        width: 189px;
+
+    }
+
+    .gmail img {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 0;
+    }
+
+    .gmail__logo {
+        margin: 0;
+        width: 20px;
+    }
+
+    #modal__img {
+        margin: 0;
+    }
+
+    .modal__photo {
+        width: 50%;
+        height: 50%;
+    }
+    .input{
+        margin: 0;
+    }
+    
+    #textarea{
+        height: 40px;
+        
+    }
+
+
+
+}
